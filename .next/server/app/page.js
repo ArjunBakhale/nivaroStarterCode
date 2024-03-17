@@ -132,7 +132,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url");
 
 /***/ }),
 
-/***/ 7887:
+/***/ 4490:
 /***/ ((module) => {
 
 "use strict";
@@ -148,7 +148,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 
 /***/ }),
 
-/***/ 997:
+/***/ 120:
 /***/ ((module) => {
 
 "use strict";
@@ -220,7 +220,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6058:
+/***/ 4136:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -245,7 +245,7 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 423)), "C:\\Users\\875745\\Downloads\\nivaroStartingCode\\app\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7019)), "C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\page.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -256,7 +256,7 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6282)), "C:\\Users\\875745\\Downloads\\nivaroStartingCode\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6282)), "C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -267,7 +267,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\875745\\Downloads\\nivaroStartingCode\\app\\page.tsx"];
+    const pages = ["C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\page.tsx"];
     
     const originalPathname = "/page"
     const __next_app__ = {
@@ -281,31 +281,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2013:
+/***/ 9783:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5808));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 120));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942))
-
-/***/ }),
-
-/***/ 5137:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2226));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3518))
-
-/***/ }),
-
-/***/ 5827:
-/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
-
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1522, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6249, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 125, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 7844, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 8782, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7887));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5808))
 
 /***/ }),
 
@@ -379,73 +360,7 @@ function Chatbot() {
 
 /***/ }),
 
-/***/ 2226:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Header)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6931);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1963);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(1621);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-function Header() {
-    // Define your pre-made list of names and links here
-    const links = [
-        {
-            name: "Intro",
-            path: "/Intro.tsx"
-        },
-        {
-            name: "About",
-            path: "/About.tsx"
-        }
-    ];
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("header", {
-        className: "z-[999] relative",
-        children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(framer_motion__WEBPACK_IMPORTED_MODULE_2__/* .motion */ .E.div, {
-                //Edit sm:w-[20rem] to change the width of the navbar :)
-                className: "fixed top-0 left-1/2 h-[4rem] sm:w-[10rem] rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full dark:bg-gray-950 dark:border-black/40 dark:bg-opacity-75",
-                initial: {
-                    y: -100,
-                    x: "-50%",
-                    opacity: 0
-                },
-                animate: {
-                    y: 0,
-                    x: "-50%",
-                    opacity: 1
-                }
-            }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("nav", {
-                className: "flex fixed top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0",
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
-                    className: "flex w-[22rem] flex-wrap items-center justify-center gap-y-1 text-[0.9rem] font-medium text-gray-500 sm:w-[initial] sm:flex-nowrap sm:gap-5",
-                    children: links.map((link)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                            className: "h-3/4 flex items-center justify-center relative",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                className: "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
-                                href: link.path,
-                                children: link.name
-                            })
-                        }, link.path))
-                })
-            })
-        ]
-    });
-}
-
-
-/***/ }),
-
-/***/ 120:
+/***/ 7887:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -532,126 +447,7 @@ function Intro() {
 
 /***/ }),
 
-/***/ 942:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ Spacing)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6931);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7640);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-function Spacing() {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-        className: "my-24 sm:block"
-    });
-}
-
-
-/***/ }),
-
-/***/ 6282:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ RootLayout),
-  metadata: () => (/* binding */ metadata)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react-experimental/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6931);
-// EXTERNAL MODULE: ./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"}
-var target_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_ = __webpack_require__(160);
-var target_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default = /*#__PURE__*/__webpack_require__.n(target_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_);
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1313);
-;// CONCATENATED MODULE: ./components/header.tsx
-
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStartingCode\components\header.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
-
-
-/* harmony default export */ const header = (__default__);
-// EXTERNAL MODULE: ./app/globals.css
-var globals = __webpack_require__(2817);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react-experimental/react.shared-subset.js
-var react_shared_subset = __webpack_require__(5465);
-;// CONCATENATED MODULE: ./components/footer.tsx
-
-
-function Footer() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-        className: "mb-10 px-4 text-center text-gray-500",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("small", {
-                className: "mb-2 block text-xs",
-                children: "\xa9 2024 Nivaro. All rights reserved."
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                className: "text-xs",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                        className: "font-semibold",
-                        children: "About this website:"
-                    }),
-                    " built with React & Next.js, TypeScript, Tailwind CSS."
-                ]
-            })
-        ]
-    });
-}
-
-// EXTERNAL MODULE: ./node_modules/react-hot-toast/dist/index.mjs
-var dist = __webpack_require__(9035);
-;// CONCATENATED MODULE: ./app/layout.tsx
-
-
-
-
-
-
-const metadata = {
-    title: "Nivaro | Starter Code",
-    description: "Starter Code for your AI website."
-};
-function RootLayout({ children }) {
-    return /*#__PURE__*/ jsx_runtime_.jsx("html", {
-        lang: "en",
-        className: "!scroll-smooth",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("body", {
-            className: `${(target_path_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter_default()).className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`,
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx(header, {}),
-                children,
-                /*#__PURE__*/ jsx_runtime_.jsx(Footer, {}),
-                /*#__PURE__*/ jsx_runtime_.jsx(dist/* Toaster */.x7, {
-                    position: "top-right"
-                })
-            ]
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 423:
+/***/ 7019:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -669,7 +465,7 @@ var jsx_runtime_ = __webpack_require__(6931);
 var module_proxy = __webpack_require__(1313);
 ;// CONCATENATED MODULE: ./components/intro.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStartingCode\components\intro.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStarterCode\components\intro.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -682,7 +478,7 @@ const __default__ = proxy.default;
 /* harmony default export */ const intro = (__default__);
 ;// CONCATENATED MODULE: ./components/chatbot.tsx
 
-const chatbot_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStartingCode\components\chatbot.tsx`)
+const chatbot_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStarterCode\components\chatbot.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -693,19 +489,8 @@ const chatbot_default_ = chatbot_proxy.default;
 
 
 /* harmony default export */ const chatbot = (chatbot_default_);
-;// CONCATENATED MODULE: ./components/spacing.tsx
-
-const spacing_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStartingCode\components\spacing.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: spacing_esModule, $$typeof: spacing_$$typeof } = spacing_proxy;
-const spacing_default_ = spacing_proxy.default;
-
-
-/* harmony default export */ const spacing = (spacing_default_);
+// EXTERNAL MODULE: ./components/spacing.tsx
+var spacing = __webpack_require__(3154);
 ;// CONCATENATED MODULE: ./app/page.tsx
 //import all of your components here!!!
 
@@ -717,43 +502,12 @@ function Home() {
         className: "flex flex-col items-center px-4",
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(intro, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(spacing, {}),
+            /*#__PURE__*/ jsx_runtime_.jsx(spacing/* default */.ZP, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(chatbot, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(spacing, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(spacing/* default */.ZP, {})
         ]
     });
 }
-
-
-/***/ }),
-
-/***/ 3174:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3180);
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
-  
-
-  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
-    const imageData = {"type":"image/x-icon","sizes":"any"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
-
-    return [{
-      ...imageData,
-      url: imageUrl + "",
-    }]
-  });
-
-/***/ }),
-
-/***/ 2817:
-/***/ (() => {
-
 
 
 /***/ })
@@ -765,7 +519,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,880], () => (__webpack_exec__(6058)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,295,114,433], () => (__webpack_exec__(4136)));
 module.exports = __webpack_exports__;
 
 })();

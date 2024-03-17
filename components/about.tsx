@@ -9,13 +9,13 @@ export default function About() {
             className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
             id="aboutPage"
         >
-            <h2>About me</h2>
+            <h2>About me</h2> <br />
             <p className="mb-3">
-                <span className="font-bold">Hi, I'm Arjun Bakhale,</span> a <span className="font-bold">programmer</span> based in Ashburn, VA. I specialize in <span className="font-bold">Python, React Native, Computer Vision, Java, and Next.js</span>. Currently, I'm the <span className="font-bold">CIO of Nivaro</span>, managing tech and coding with React.js and Next.js. I'm seeking a <span className="font-bold">summer internship</span>.
+                <span className="font-bold">Welcome to Nivaro,</span> a platform based in Ashburn, VA. We specialize in <span className="font-bold">educating students about AI</span>. Currently, we are <span className="font-bold">leading the way in AI education</span>, teaching with practical examples and real-world applications. We are always <span className="font-bold">open for enrollment</span>.
             </p>
 
             <p>
-                Outside of coding, I'm a <span className="font-bold">singer</span> and <span className="font-bold">reader</span>. I've performed at Carnegie Hall and won state and national competitions.
+                Outside of teaching AI, we are <span className="font-bold">passionate about technology</span> and <span className="font-bold">innovation</span>. We've been recognized at state and national levels for our contribution to AI education.
             </p>
         </section>
     );

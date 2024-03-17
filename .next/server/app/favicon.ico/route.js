@@ -1,8 +1,8 @@
 "use strict";
 (() => {
 var exports = {};
-exports.id = 155;
-exports.ids = [155];
+exports.id = 103;
+exports.ids = [103];
 exports.modules = {
 
 /***/ 4021:
@@ -19,7 +19,7 @@ module.exports = require("os");
 
 /***/ }),
 
-/***/ 2530:
+/***/ 9282:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -69,7 +69,7 @@ function GET() {
 
 const dynamic = 'force-static'
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=C%3A%5CUsers%5C875745%5CDownloads%5CnivaroStartingCode%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Ffavicon.ico%2Froute&name=app%2Ffavicon.ico%2Froute&pagePath=private-next-app-dir%2Ffavicon.ico&appDir=C%3A%5CUsers%5C875745%5CDownloads%5CnivaroStarterCode%5Capp&appPaths=%2Ffavicon.ico&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -77,7 +77,7 @@ const dynamic = 'force-static'
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!C:\\Users\\875745\\Downloads\\nivaroStartingCode\\app\\favicon.ico?__next_metadata__","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/favicon.ico/route","pathname":"/favicon.ico","filename":"favicon","bundlePath":"app/favicon.ico/route"},"resolvedPagePath":"next-metadata-route-loader?page=%2Ffavicon.ico%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\favicon.ico?__next_metadata__","nextConfigOutput":""}
     const routeModule = new (module_default())({
       ...options,
       userland: favicon_next_metadata_namespaceObject,
@@ -107,7 +107,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,981,664], () => (__webpack_exec__(2530)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,981,664], () => (__webpack_exec__(9282)));
 module.exports = __webpack_exports__;
 
 })();

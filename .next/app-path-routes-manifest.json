@@ -1,5 +1,6 @@
 {
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/",
+  "/favicon.ico/route": "/favicon.ico",
+  "/examplePage/page": "/examplePage",
   "/api/chat/route": "/api/chat"
 }
