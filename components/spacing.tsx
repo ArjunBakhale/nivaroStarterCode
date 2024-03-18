@@ -4,6 +4,6 @@ import React from "react";
 
 export default function Spacing() {
     return (
-        <div className="my-24 sm:block"></div>
+        <div className="my-16 sm:block"></div>
     );
 }

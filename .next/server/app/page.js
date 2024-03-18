@@ -132,7 +132,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url");
 
 /***/ }),
 
-/***/ 4490:
+/***/ 7887:
 /***/ ((module) => {
 
 "use strict";
@@ -148,7 +148,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot");
 
 /***/ }),
 
-/***/ 120:
+/***/ 997:
 /***/ ((module) => {
 
 "use strict";
@@ -281,12 +281,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 9783:
+/***/ 5069:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7887));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5808))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 120));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 5808));
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942))
 
 /***/ }),
 
@@ -360,7 +360,7 @@ function Chatbot() {
 
 /***/ }),
 
-/***/ 7887:
+/***/ 120:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -519,7 +519,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,295,114,433], () => (__webpack_exec__(4136)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,295,114,373], () => (__webpack_exec__(4136)));
 module.exports = __webpack_exports__;
 
 })();
