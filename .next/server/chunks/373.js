@@ -45,7 +45,7 @@ function Header() {
             path: "/"
         },
         {
-            name: "About",
+            name: "Example",
             path: "/examplePage"
         }
     ];
