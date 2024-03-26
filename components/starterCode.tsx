@@ -1,3 +1,5 @@
+"use client";
+// This is a starter code for a new component. Copy and paste this code into a new file in the components folder.
 // Dont forget to import react and anything else you use!!!
 
 import React from "react";

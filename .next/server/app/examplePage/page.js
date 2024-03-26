@@ -250,11 +250,12 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 211:
+/***/ 3223:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942));
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2038));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9895))
 
 /***/ }),
 
@@ -329,6 +330,33 @@ function About() {
 
 /***/ }),
 
+/***/ 9895:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ EditMyName)
+/* harmony export */ });
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6931);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7640);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* __next_internal_client_entry_do_not_use__ default auto */ 
+// This is a starter code for a new component. Copy and paste this code into a new file in the components folder.
+// Dont forget to import react and anything else you use!!!
+
+//Change the name of the component. Call it in whichever page you desire.
+function EditMyName() {
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
+        // Keep this section since it provides basic styling for the component.
+        className: "mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
+    });
+}
+
+
+/***/ }),
+
 /***/ 7066:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -360,20 +388,19 @@ const __default__ = proxy.default;
 
 
 /* harmony default export */ const about = (__default__);
-// EXTERNAL MODULE: ./node_modules/next/dist/compiled/react-experimental/react.shared-subset.js
-var react_shared_subset = __webpack_require__(5465);
 ;// CONCATENATED MODULE: ./components/starterCode.tsx
-// Dont forget to import react and anything else you use!!!
+
+const starterCode_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStarterCode\components\starterCode.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule: starterCode_esModule, $$typeof: starterCode_$$typeof } = starterCode_proxy;
+const starterCode_default_ = starterCode_proxy.default;
 
 
-//Change the name of the component. Call it in whichever page you desire.
-function EditMyName() {
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        // Keep this section since it provides basic styling for the component.
-        className: "mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]"
-    });
-}
-
+/* harmony default export */ const starterCode = (starterCode_default_);
 ;// CONCATENATED MODULE: ./app/examplePage/page.tsx
 //import all of your components here!!!
 
@@ -390,7 +417,7 @@ function Home() {
         children: [
             /*#__PURE__*/ jsx_runtime_.jsx(about, {}),
             /*#__PURE__*/ jsx_runtime_.jsx(spacing/* default */.ZP, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(EditMyName, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(starterCode, {})
         ]
     });
 }
