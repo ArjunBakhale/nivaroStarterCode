@@ -180,7 +180,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 3833:
+/***/ 5570:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -208,7 +208,7 @@ __webpack_require__.r(__webpack_exports__);
         'examplePage',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7066)), "C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\examplePage\\page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7066)), "/workspaces/nivaroStarterCode/app/examplePage/page.tsx"],
           
         }]
       },
@@ -225,7 +225,7 @@ __webpack_require__.r(__webpack_exports__);
       ]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6282)), "C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6282)), "/workspaces/nivaroStarterCode/app/layout.tsx"],
           metadata: {
     icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3174))).default(props))],
     apple: [],
@@ -236,7 +236,7 @@ __webpack_require__.r(__webpack_exports__);
         }
       ]
       }.children;
-    const pages = ["C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\examplePage\\page.tsx"];
+    const pages = ["/workspaces/nivaroStarterCode/app/examplePage/page.tsx"];
     
     const originalPathname = "/examplePage/page"
     const __next_app__ = {
@@ -250,7 +250,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 3223:
+/***/ 8183:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 942));
@@ -377,7 +377,7 @@ var spacing = __webpack_require__(3154);
 var module_proxy = __webpack_require__(1313);
 ;// CONCATENATED MODULE: ./components/about.tsx
 
-const proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStarterCode\components\about.tsx`)
+const proxy = (0,module_proxy.createProxy)(String.raw`/workspaces/nivaroStarterCode/components/about.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -390,7 +390,7 @@ const __default__ = proxy.default;
 /* harmony default export */ const about = (__default__);
 ;// CONCATENATED MODULE: ./components/starterCode.tsx
 
-const starterCode_proxy = (0,module_proxy.createProxy)(String.raw`C:\Users\875745\Downloads\nivaroStarterCode\components\starterCode.tsx`)
+const starterCode_proxy = (0,module_proxy.createProxy)(String.raw`/workspaces/nivaroStarterCode/components/starterCode.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -432,7 +432,7 @@ function Home() {
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,295,373], () => (__webpack_exec__(3833)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,734,569], () => (__webpack_exec__(5570)));
 module.exports = __webpack_exports__;
 
 })();

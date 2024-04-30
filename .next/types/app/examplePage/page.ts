@@ -1,4 +1,4 @@
-// File: C:\Users\875745\Downloads\nivaroStarterCode\app\examplePage\page.tsx
+// File: /workspaces/nivaroStarterCode/app/examplePage/page.tsx
 import * as entry from '../../../../app/examplePage/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

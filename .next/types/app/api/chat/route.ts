@@ -1,4 +1,4 @@
-// File: C:\Users\875745\Downloads\nivaroStarterCode\app\api\chat\route.ts
+// File: /workspaces/nivaroStarterCode/app/api/chat/route.ts
 import * as entry from '../../../../../app/api/chat/route.js'
 import type { NextRequest } from 'next/server.js'
 

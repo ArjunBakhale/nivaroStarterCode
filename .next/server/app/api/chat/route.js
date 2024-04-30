@@ -96,7 +96,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 3960:
+/***/ 6392:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -156,7 +156,7 @@ async function POST(req) {
     return new dist/* StreamingTextResponse */.wn(stream);
 }
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fchat%2Froute&name=app%2Fapi%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fchat%2Froute.ts&appDir=C%3A%5CUsers%5C875745%5CDownloads%5CnivaroStarterCode%5Capp&appPaths=%2Fapi%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fchat%2Froute&name=app%2Fapi%2Fchat%2Froute&pagePath=private-next-app-dir%2Fapi%2Fchat%2Froute.ts&appDir=%2Fworkspaces%2FnivaroStarterCode%2Fapp&appPaths=%2Fapi%2Fchat%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!
 
     
 
@@ -164,7 +164,7 @@ async function POST(req) {
 
     
 
-    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/chat/route","pathname":"/api/chat","filename":"route","bundlePath":"app/api/chat/route"},"resolvedPagePath":"C:\\Users\\875745\\Downloads\\nivaroStarterCode\\app\\api\\chat\\route.ts","nextConfigOutput":""}
+    const options = {"definition":{"kind":"APP_ROUTE","page":"/api/chat/route","pathname":"/api/chat","filename":"route","bundlePath":"app/api/chat/route"},"resolvedPagePath":"/workspaces/nivaroStarterCode/app/api/chat/route.ts","nextConfigOutput":""}
     const routeModule = new (module_default())({
       ...options,
       userland: route_namespaceObject,
@@ -194,7 +194,7 @@ async function POST(req) {
 var __webpack_require__ = require("../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [763,981,703], () => (__webpack_exec__(3960)));
+var __webpack_exports__ = __webpack_require__.X(0, [763,981,703], () => (__webpack_exec__(6392)));
 module.exports = __webpack_exports__;
 
 })();
